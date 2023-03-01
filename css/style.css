@@ -1,0 +1,57 @@
+nav{
+    margin: 0;
+    padding: 1vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+
+.type-1 .links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.type-1 .links .logo{
+    color: #fff;
+}
+
+.type-1 .links h1{
+    margin: .75vw 0;
+}
+
+.type-1 ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 2vw;
+}
+
+.type-1 ul li{
+    margin: 0 2vw;
+    position: relative;
+}
+
+.type-1 ul li::before{
+    content: '';
+    position: absolute;
+    width: .1vw;
+    height: 5vw;
+    background-color: #fff;
+    left: 50%;
+    top: -8vw;
+    transition: 0.3s;
+
+}
+
+.type-1 ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.type-1 ul li:hover::before{
+    top: -5.5vw;
+} 
+
+.type-1 .button .btn{
+    margin: .75vw 0;
+}
