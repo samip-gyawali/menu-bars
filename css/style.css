@@ -53,5 +53,19 @@ nav{
 } 
 
 .type-1 .button .btn{
-    margin: .75vw 0;
+    margin: .5vw 0;
+    padding: .5vw 2vw;
+    border: 3.5px solid #fff;
+    background: transparent;
+    color: #fff;
+    font-size: 1vw;
+    text-transform: uppercase;
+    transition: 0.3s;
+    cursor: pointer;
+    font-family: 'Roboto Slab',serif;
+}
+
+.type-1 .button .btn:hover{
+    background: #fff;
+    color: #000;
 }
